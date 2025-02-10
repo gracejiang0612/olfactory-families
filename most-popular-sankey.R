@@ -1,10 +1,8 @@
-# Load libraries
 library(tidyverse)
 library(ggsankey)
 library(ggplot2)
 library(RColorBrewer)
 
-# Read the data
 perfume_data <- read_csv("/Users/Grace/Desktop/2025-studio/project-1/Most-popular-perfume.csv")
 
 # Get different color palettes
@@ -99,8 +97,8 @@ ggplot(df_long, aes(x = x,
   ) +
   labs(
     title = "America's Love Affair with Floral Fragrances",
-    subtitle = "Olfactory Families and Nuances of 15 Best-Selling Perfumes in United States",
-    caption = "*Analysis based on bestseller rankings from major U.S. retailers (Sephora, Ulta Beauty, Macy's and Bloomingdale's).\nFragrances included appeared in top 10 lists of at least two retailers. Olfactory classification data: Wikiparfum."
+    subtitle = "Olfactory Families and Nuances of 16 Best-Selling Perfumes in United States",
+    caption = "Valume based on bestseller rankings from major U.S. retailers (Sephora, Ulta Beauty, Macy's and Bloomingdale's).\nFragrances included appeared in top 10 lists of at least two retailers. \nOlfactory classification data: Wikiparfum."
   ) +
   scale_x_discrete(labels = c("Perfumes", "Families", "Subfamilies"))
 
