@@ -85,3 +85,4 @@ install.packages(c("ggplot2", "ggsankey", "tidyverse"))
 
 - Wikiparfum for providing detailed fragrance information
 - The original Reddit post that inspired this analysis
+- With the Claude's help
